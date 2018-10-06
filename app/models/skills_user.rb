@@ -1,0 +1,2 @@
+class SkillsUser < ApplicationRecord
+end
