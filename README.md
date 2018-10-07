@@ -13,7 +13,7 @@ bundle install
 rake db:create
 
 ## Database insert
-**Skills initialization**
+**Skills initialization**  
 Method: POST/   
 URL: */skills/create_all  
 Request body: (json)  
@@ -48,7 +48,7 @@ Request body: (json)
     	]
     }
 
-**Users initialization**
+**Users initialization**  
 Method: POST/   
 URL: */users/create_all  
 Request body: (json)  
@@ -73,7 +73,7 @@ Request body: (json)
         	}
     	]
     }
-**SkillsUsers initialization**
+**SkillsUsers initialization**  
 Method: POST/   
 URL: */users/add_skills_to_various  
 Request body: (json)  
