@@ -14,9 +14,9 @@ rake db:create
 
 ## Database insert
 **Skills initialization**
-Method: POST/ 
-URL: */skills/create_all
-Request body: (json)
+Method: POST/   
+URL: */skills/create_all  
+Request body: (json)  
 
     {
     	"skills": [
@@ -49,9 +49,9 @@ Request body: (json)
     }
 
 **Users initialization**
-Method: POST/ 
-URL: */users/create_all
-Request body: (json)
+Method: POST/   
+URL: */users/create_all  
+Request body: (json)  
 
     {
     	"users": [
@@ -74,9 +74,9 @@ Request body: (json)
     	]
     }
 **SkillsUsers initialization**
-Method: POST/ 
-URL: */users/add_skills_to_various
-Request body: (json)
+Method: POST/   
+URL: */users/add_skills_to_various  
+Request body: (json)  
 
     {
 		"skills_users": [
@@ -103,5 +103,5 @@ Request body: (json)
 		]
 	}
 ## Show table result
-http://localhost:3000/skills/report_by_sql
+http://localhost:3000/skills/report_by_sql  
 http://localhost:3000/skills/report_without_sql
