@@ -1,10 +1,14 @@
 class CreateSkills < ActiveRecord::Migration[5.2]
-  def change
+  def up
     create_table :skills do |t|
       t.string :name
       t.integer :parent_id
 
       t.timestamps
     end
+  end
+
+  def down
+  	drop_table :skills
   end
 end
