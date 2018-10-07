@@ -1,0 +1,33 @@
+<h4>Report</h4>
+
+<table>
+    <tr>
+      <th>ID</th>
+      <th>NAME</th>
+      <th>POINTS</th>
+      <th>USERS_COUNT</th>
+    </tr>
+
+    <% @reports.each do |report| %>
+      <tr>
+        <td><%= report["id"] %></td>
+        <td><%= report["name"] %></td>
+        <td><%= report["points"] %></td>
+        <td><%= report["users_count"] %></td>
+      </tr>
+    <% end %>
+</table>
+
+<style>
+  table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+  }
+</style>

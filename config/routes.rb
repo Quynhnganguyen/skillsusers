@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   resources :skills, only: [:create_all] do 
   	collection do
   		post :create_all
+  		get :report_by_sql
+  		get :report_without_sql
   	end
   end
 
